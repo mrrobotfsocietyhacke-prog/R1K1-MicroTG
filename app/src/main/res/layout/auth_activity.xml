@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical" android:gravity="center_vertical" android:padding="24dp" android:background="#080808">
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="R1K1.SYS 🔴" android:textColor="#FF263B" android:textSize="30sp" android:textStyle="bold" android:gravity="center" android:layout_marginBottom="24dp" />
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Сервер" android:textColor="#EEEEEE" />
+    <EditText android:id="@+id/server" android:layout_width="match_parent" android:layout_height="wrap_content" android:singleLine="true" android:inputType="textUri" android:text="127.0.0.1:8000" android:textColor="#FFFFFF" android:hintTextColor="#777777" android:hint="127.0.0.1:8000" />
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Ключ" android:textColor="#EEEEEE" android:layout_marginTop="12dp" />
+    <EditText android:id="@+id/auth_key" android:layout_width="match_parent" android:layout_height="wrap_content" android:singleLine="true" android:inputType="textPassword" android:text="r1k1_super_secret_2026" android:textColor="#FFFFFF" />
+    <Button android:id="@+id/button" android:layout_width="match_parent" android:layout_height="wrap_content" android:onClick="onAuthorize" android:text="ПОДКЛЮЧИТЬСЯ" android:textColor="#FFFFFF" android:backgroundTint="#D50024" android:layout_marginTop="22dp" />
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Подключение к собственному R1K1 API через HTTP/JSON" android:textColor="#888888" android:gravity="center" android:layout_marginTop="18dp" />
+</LinearLayout>
